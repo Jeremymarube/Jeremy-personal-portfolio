@@ -1,0 +1,46 @@
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0;
+   padding: 20px 20px;
+   background-color: violet;
+   color: blue;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.logo{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: italic;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+
+}
+.hero-image img(
+    border-radius: 8px;
+)
+body{
+    background-color: #7e6753;
+}
