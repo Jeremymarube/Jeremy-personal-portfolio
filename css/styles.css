@@ -42,7 +42,16 @@ nav ul a{
     gap: 20px;
     padding: 50px 0;
 }
-.hero-image img(
+.hero-image img{
     object-fit: cover;
     border-radius: 8px;
-)
+}
+#about{
+    
+}
+#skills{
+    
+}
+#projects{
+    
+}
