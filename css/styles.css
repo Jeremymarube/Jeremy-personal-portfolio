@@ -41,17 +41,38 @@ nav ul a{
     justify-content: center;
     gap: 20px;
     padding: 50px 0;
+    
 }
 .hero-image img{
     object-fit: cover;
     border-radius: 8px;
+}   
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
 }
-#about{
+.btn:hover {
+    background-color: #555;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    color: blue;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: brown;
+}
     
-}
-#skills{
-    
-}
-#projects{
-    
-}
