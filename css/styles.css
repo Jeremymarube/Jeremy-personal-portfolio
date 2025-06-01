@@ -75,4 +75,28 @@ footer .social-links a {
 footer .social-links a:hover {
     color: brown;
 }
-    
+ input,
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+}   
+/* For mobile phones */
+@media (max-width: 480px) {
+  nav ul li {
+    margin: 8px 0;
+  }
+
+  .btn {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+
+  #projects .project-1,
+  #projects .project-2,
+  #projects .project-3,
+  #projects .project-4 {
+    margin-bottom: 20px;
+  }
+}
